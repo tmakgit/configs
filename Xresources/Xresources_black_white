@@ -1,0 +1,43 @@
+xterm*font:	 				xft:DejaVu Sans Mono:size=12
+xterm*fontBold:				xft:DejaVu Sans Mono:size=12:style=bold
+xterm*scrollstyle:			plain
+xterm*scrollBar:			false
+xterm*scrollTtyOutput:		false
+xterm*scrollKey:		  	true
+xterm*saveLines:			8192
+xterm*allowTitleOps:		false
+xterm*eightBitInput:		false
+xterm*title:				xterm
+xterm*termName:				xterm-256color
+
+xterm*VT100.Translations: #override \
+                 Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
+                 Ctrl Shift <Key>C:    copy-selection(CLIPBOARD)
+
+xterm*background:			#ffffff
+xterm*foreground:			#000000
+xterm*cursorColor:			#cd0000
+! black
+xterm*color0:				#000000
+xterm*color8:				#7f7f7f
+! red
+xterm*color1:				#cd0000
+xterm*color9:				#cd0000
+! green
+xterm*color2:				#008000
+xterm*color10:				#008000
+! yellow
+xterm*color3:				#d7af00
+xterm*color11:				#d7af00
+! blue
+xterm*color4:				#008080
+xterm*color12:				#008080
+! magenta
+xterm*color5:				#800080
+xterm*color13:				#800080
+! cyan
+xterm*color6:				#d75f00
+xterm*color14:				#d75f00
+! white
+xterm*color7:				#b2b2b2
+xterm*color15:				#ffffff

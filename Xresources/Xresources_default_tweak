@@ -1,0 +1,23 @@
+xterm*font:	 				xft:DejaVu Sans Mono:size=11
+xterm*fontBold:				xft:DejaVu Sans Mono:size=11:style=bold
+xterm*scrollstyle:			plain
+xterm*scrollBar:			false
+xterm*scrollTtyOutput:		false
+xterm*scrollKey:		  	true
+xterm*saveLines:			8192
+xterm*allowTitleOps:		false
+xterm*eightBitInput:		false
+xterm*title:				xterm
+!xterm*termName:				tmux-256color
+xterm*termName:				xterm-256color
+
+xterm*VT100.Translations: #override \
+                 Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
+                 Ctrl Shift <Key>C:    copy-selection(CLIPBOARD)
+
+xterm*foreground: #000000
+xterm*background: #ffffff
+! xterm*cursorColor: #cc0000
+! blue
+xterm*color4:				#2176c7
+xterm*color12:				#0083ff
