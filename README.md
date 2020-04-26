@@ -1,2 +1,2 @@
 # config files
-linux configuration files
+sundry configs
