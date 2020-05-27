@@ -1,4 +1,4 @@
 set font "DejaVu Sans Mono 12"
-set default-bg "grey90"
+set default-bg "grey95"
 set show-recent 0
 set recolor false
