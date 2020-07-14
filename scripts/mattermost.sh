@@ -1,2 +1,2 @@
 #!/bin/bash
-flatpak run com.mattermost.Desktop &
+~/builds/mattermost-desktop-4.5.0-linux-x86_64.AppImage &> /dev/null &
