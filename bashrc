@@ -23,5 +23,3 @@ alias tailf='tail -f'
 
 # tmux
 alias tmux='tmux -2'
-
-complete -C /usr/local/bin/vault vault
