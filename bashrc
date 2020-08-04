@@ -17,7 +17,7 @@ export py="/home/tmak/git/python/src"
 alias ls='ls -F --color=auto'
 alias la='ls -la'
 alias ll='ls -l'
-alias roku='roku 10.0.0.3'
+alias roku='roku 10.0.0.5'
 alias vim='vim'
 alias tailf='tail -f'
 
