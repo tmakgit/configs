@@ -45,11 +45,11 @@ then
 fi
 
 # dunstrc
-##if [ ! -d $home_dir/.config/dunst ]
-##then
-##	mkdir $home_dir/.config/dunst
-##	ln -sf $git_dir/dunstrc ~/.config/dunst/dunstrc
-##fi
+if [ ! -d $home_dir/.config/dunst ]
+then
+	mkdir -p $home_dir/.config/dunst
+	ln -sf $git_dir/dunstrc ~/.config/dunst/dunstrc
+fi
 
 # vimrc
 if [ ! -f $home_dir/.vimrc ]
@@ -72,7 +72,7 @@ fi
 # zathura
 if [ ! -d $home_dir/.config/zathura ]
 then
-	mkdir $home_dir/.config/zathura
+	mkdir -p $home_dir/.config/zathura
 fi
 
 if [ ! -f $home_dir/.config/zathura/zathurarc ]
