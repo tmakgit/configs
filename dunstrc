@@ -2,7 +2,7 @@
     ### Display ###
 
     # Which monitor should the notifications be displayed on.
-    monitor = 0
+    monitor = 1 
 
     # Display notification on focused monitor.  Possible modes are:
     #   mouse: follow mouse pointer
@@ -256,7 +256,8 @@
 
 [urgency_normal]
     #background = "#285577"
-    background = "#262626"
+    #background = "#262626"
+    background = "#af0000"
     foreground = "#e5e5e5"
     timeout = 10
     # Icon for notifications with normal urgency, uncomment to enable
