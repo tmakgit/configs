@@ -3,6 +3,8 @@
 umask 0022
 PS1='\[\e[1;33m\]\h:\[\e[1;34m\][\w]\[\e[1;33m\]\$\[\e[0m\] '
 
+export LANG=en_US.utf8
+
 # editor
 EDITOR="vim"
 PAGER="vim"
