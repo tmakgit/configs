@@ -16,7 +16,7 @@ fi
 export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$(id -u)/bus
 exec dunst -centering horizontal &
 exec kensington.sh &
-xsetroot -solid black &
+xsetroot -solid "#fdf6e3" &
 #exec feh --bg-fill /home/tmak/git/configs/walls/rhombus-square-bg8.png &
 xset s noblank s 0 -dpms -b &
 xrdb ~/.Xresources &
