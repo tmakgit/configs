@@ -2,7 +2,7 @@
 set nocompatible
 set t_Co=16
 syntax enable
-set background=light
+set background=dark
 colorscheme solarized
 set cursorline
 set colorcolumn=80
@@ -10,6 +10,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set number
+set relativenumber
 let python_highlight_all = 1
 
 "my preferences
