@@ -1,19 +1,17 @@
-"python stuff
-set nocompatible
 set t_Co=16
 syntax enable
-"set background=dark
-"colorscheme solarized
-"set cursorline
-"set colorcolumn=80
+hi CursorLine cterm=NONE ctermbg=8
+hi StatusLine cterm=NONE ctermbg=7 ctermbg=8
+hi ColorColumn cterm=NONE ctermbg=7 ctermbg=8
+hi Visual cterm=NONE ctermfg=7 ctermbg=8
+set cursorline
+set colorcolumn=80
 set tabstop=4
 set shiftwidth=4
 set expandtab
 set number
 set relativenumber
-let python_highlight_all = 1
 
-"my preferences
 set laststatus=2
 set showmatch
 set incsearch
@@ -24,4 +22,4 @@ map <F4> :set nowrap!<CR>
 map <F5> :set pastetoggle<CR>
 set lcs+=space:.
 map <F6> :set list!<CR>
-set viminfo= 
+set viminfo=

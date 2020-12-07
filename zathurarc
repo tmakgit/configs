@@ -17,4 +17,4 @@ set index-fg "grey80"
 set index-active-bg "grey80"
 set index-active-fg "grey15"
 set show-recent 0
-set recolor false
+set recolor true 
