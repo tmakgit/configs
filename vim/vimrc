@@ -25,4 +25,3 @@ map <F4> :set nowrap!<CR>
 map <F5> :set pastetoggle<CR>
 set lcs+=space:.
 map <F6> :set list!<CR>
-set viminfo=
