@@ -12,8 +12,8 @@ set shiftwidth=4
 set expandtab
 set number
 set relativenumber
-set linebreak
-set textwidth=79
+"set linebreak
+"set textwidth=79
 
 set laststatus=2
 set showmatch
