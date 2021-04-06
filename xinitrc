@@ -19,5 +19,6 @@ exec kensington.sh &
 xsetroot -solid "#000000" &
 #xsetroot -solid "#2aa198" &
 xset s noblank s 0 -dpms -b &
+exec synergys &
 exec slstatus &
 exec dwmstart.sh

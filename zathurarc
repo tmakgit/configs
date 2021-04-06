@@ -1,5 +1,5 @@
 set font "Fira Code 14"
-set recolor false
+set recolor true 
 set show-recent 0
 
 set default-bg "black"
