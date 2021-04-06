@@ -1,0 +1,8 @@
+PS1='\[\e[1;33m\]mac:\[\e[1;34m\][\w]\[\e[1;33m\]\$\[\e[0m\] '
+export PATH="$PATH:$HOME/bin:$HOME/.local/bin:/opt/cisco/anyconnect/bin"
+alias ls='ls -G'
+alias la='ls -la'
+alias ll='ls -l'
+alias tmux='tmux -2'
+# mac
+export BASH_SILENCE_DEPRECATION_WARNING=1

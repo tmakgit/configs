@@ -1,0 +1,27 @@
+set t_Co=16
+syntax enable
+hi CursorLine cterm=NONE ctermbg=8
+hi StatusLine cterm=NONE ctermbg=7 ctermbg=8
+hi ColorColumn cterm=NONE ctermbg=7 ctermbg=8
+hi Visual cterm=NONE ctermfg=0 ctermbg=8
+hi StatusLine cterm=NONE ctermfg=2 ctermbg=8
+"set cursorline
+set colorcolumn=80
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set number
+set relativenumber
+"set linebreak
+"set textwidth=79
+
+set laststatus=2
+set showmatch
+set incsearch
+map <F1> :set number!<CR>
+map <F2> :set relativenumber!<CR>
+map <F3> :set hls!<CR>
+map <F4> :set nowrap!<CR> 
+map <F5> :set pastetoggle<CR>
+set lcs+=space:.
+map <F6> :set list!<CR>
