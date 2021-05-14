@@ -1,5 +1,8 @@
+# keep tmux from reading .profile twice
+set -g default-command "exec bash"
+
 # change prifix
-set-option -g prefix M-y
+set-option -g prefix C-Space
 
 # start with 1 instead of 0
 set -g base-index 1
