@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sleep $1
+notify-send -t 20000 break $2
+nohup mplayer ~/Music/alarm3.mp3 > /dev/null 2>&1 &
