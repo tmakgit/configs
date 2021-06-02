@@ -1,5 +1,17 @@
 #!/bin/bash
 
-sleep $1
-notify-send -t 20000 break $2
+#starttime=$1
+starttime=$(expr $1 \* 60)
+echo $(date -d @$starttime +%M:%S) > ~/.pomodoro
+
+while [ $starttime -gt 0 ];
+    do
+       starttime=$(($starttime-1)); 
+       sleep 1s 
+       echo $(date -d @$starttime +%M:%S) > ~/.pomodoro
+    done
+
+
+notify-send -t 20000 break $2 
 nohup mplayer ~/Music/alarm3.mp3 > /dev/null 2>&1 &
+> ~/.pomodoro
