@@ -14,8 +14,8 @@ set colorcolumn=80
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set number
-set relativenumber
+"set number
+"set relativenumber
 "set linebreak
 "set textwidth=79
 
